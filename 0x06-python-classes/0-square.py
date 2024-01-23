@@ -1,6 +1,7 @@
-te an empty class Square"""
+#!/usr/bin/python3
+""" create an empty class Square"""
 
 
 class Square:
-        """ Created an empty class Square"""
-            pass
+    """ Created an empty class Square"""
+    pass
