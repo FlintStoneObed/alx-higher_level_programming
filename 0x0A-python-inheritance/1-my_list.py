@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-"""Defines an object attribute lookup function."""
+MyList = __import__('1-my_list').MyList
 
-
-def lookup(obj):
-    """Return a list of an object's available attributes."""
-    return (dir(obj))
+my_list = MyList()
+my_list.append(1)
+my_list.append(4)
+my_list.append(2)
+my_list.append(3)
+my_list.append(5)
+print(my_list)
+my_list.print_sorted()
+print(my_list)
