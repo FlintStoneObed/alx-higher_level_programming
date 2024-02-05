@@ -1,13 +1,15 @@
 #!/usr/bin/python3
 
 """
-defining a child class
+A module with a class that inherits and uses the 'list' class.
 """
 
-class MyList(list):
-    """
-    defined a child class that inherits the parent class list
-    """
 
-    def print_sorted(self):
+class MyList(list):
+    """A class that uses the list as it's base class."""
+
+    def print_sorted(self) -> None:
+        """
+        Prints the list in sorted (ascending) order.
+        """
         print(sorted(self))
